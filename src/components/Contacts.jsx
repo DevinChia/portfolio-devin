@@ -1,5 +1,5 @@
+import whatsappIcon from "../assets/whatsapp.svg"
 import instagramIcon from "../assets/instagram.svg"
-import githubIcon from "../assets/github.svg"
 import linkedinIcon from "../assets/linkedin.svg"
 import emailIcon from "../assets/email.png"
 
@@ -19,9 +19,26 @@ function Contact() {
 
         <div className="mt-8 flex items-center gap-6">
 
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/6281219630222"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="transition-transform hover:-translate-y-1"
+          >
+            <img
+              src={whatsappIcon}
+              alt="WhatsApp"
+              className="h-7 w-7"
+            />
+          </a>
+
           {/* Instagram */}
           <a
-            href="#"
+            href="https://www.instagram.com/chiadevin"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Instagram"
             className="transition-transform hover:-translate-y-1"
           >
@@ -32,22 +49,11 @@ function Contact() {
             />
           </a>
 
-          {/* GitHub */}
-          <a
-            href="#"
-            aria-label="GitHub"
-            className="transition-transform hover:-translate-y-1"
-          >
-            <img
-              src={githubIcon}
-              alt="GitHub"
-              className="h-7 w-7"
-            />
-          </a>
-
           {/* LinkedIn */}
           <a
-            href="#"
+            href="https://www.linkedin.com/in/devin-chia-586359251/"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
             className="transition-transform hover:-translate-y-1"
           >
@@ -60,7 +66,7 @@ function Contact() {
 
           {/* Email */}
           <a
-            href="#"
+            href="mailto:devinchia777@gmail.com"
             aria-label="Email"
             className="transition-transform hover:-translate-y-1"
           >
