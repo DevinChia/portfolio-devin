@@ -107,7 +107,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/cv.pdf"
+            href="/CV-Devin.pdf"
             download
             onClick={() => setIsOpen(false)}
             className="font-medium transition-opacity hover:opacity-60"
