@@ -21,12 +21,13 @@ function Hero() {
           <h1 className="text-4xl font-bold leading-tight md:text-5xl">
             Hi, I am Devin,
             <br />
-            Front End Web Developer
+            Frontend Web Developer
           </h1>
 
           <p className="mt-6 max-w-md leading-relaxed text-gray-600">
-            I build responsive and interactive web experiences
-            using modern web technologies.
+            I build responsive and interactive websites with React and 
+            modern web technologies, focusing on clean and user-friendly 
+            experiences.
           </p>
 
           <a
