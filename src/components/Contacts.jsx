@@ -25,7 +25,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
-            className="transition-transform hover:-translate-y-1"
+            className="transition-transform hover:-translate-y-1 active:scale-90"
           >
             <img
               src={whatsappIcon}
@@ -40,7 +40,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="transition-transform hover:-translate-y-1"
+            className="transition-transform hover:-translate-y-1 active:scale-90"
           >
             <img
               src={instagramIcon}
@@ -55,7 +55,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="transition-transform hover:-translate-y-1"
+            className="transition-transform hover:-translate-y-1 active:scale-90"
           >
             <img
               src={linkedinIcon}
@@ -68,7 +68,7 @@ function Contact() {
           <a
             href="mailto:devinchia777@gmail.com"
             aria-label="Email"
-            className="transition-transform hover:-translate-y-1"
+            className="transition-transform hover:-translate-y-1 active:scale-90"
           >
             <img
               src={emailIcon}

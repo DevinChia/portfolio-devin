@@ -36,7 +36,7 @@ function Skills() {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="flex w-[calc(50%-0.5rem)] flex-col items-center justify-center rounded-lg bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md md:w-[calc(25%-0.75rem)]"
+              className="flex w-[calc(50%-0.5rem)] flex-col items-center justify-center rounded-lg bg-white p-5 text-center shadow-sm transition-all hover:-translate-y-1 hover:shadow-md md:w-[calc(25%-0.75rem)]"
             >
               <img
                 src={skill.icon}

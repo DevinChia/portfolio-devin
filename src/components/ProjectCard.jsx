@@ -32,7 +32,7 @@ function ProjectCard({ image, title, tags, description, liveLink, githubLink }) 
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757]"
+            className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
           >
             Live Demo
           </a>
@@ -41,7 +41,7 @@ function ProjectCard({ image, title, tags, description, liveLink, githubLink }) 
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757]"
+            className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
           >
             GitHub
           </a>

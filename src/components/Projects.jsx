@@ -1,4 +1,5 @@
 import carCustomizerImage from "../assets/car-customizer.png"
+import kopiSenjaImage from "../assets/kopi-senja.png"
 import ProjectCard from "./ProjectCard"
 
 function Projects() {
@@ -8,6 +9,15 @@ function Projects() {
         <h2 className="text-3xl font-bold md:text-4xl">
           Projects
         </h2>
+
+        <ProjectCard
+          image={kopiSenjaImage}
+          title="Kopi Senja Landing Page"
+          tags={["React", "Tailwind CSS"]}
+          description="A modern responsive landing page concept for a coffee shop, designed to showcase its menu, atmosphere, location, and social media presence."
+          liveLink="https://kopi-senja-cafe.vercel.app"
+          githubLink="https://github.com/DevinChia/kopi-senja-landing-page"
+        />
 
         <ProjectCard
           image={carCustomizerImage}

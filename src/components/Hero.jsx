@@ -33,7 +33,7 @@ function Hero() {
           <a
             href="/CV-Devin.pdf"
             download
-            className="mt-7 inline-block rounded-lg bg-[#FF6464] px-6 py-3 font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757]"
+            className="mt-7 inline-block rounded-lg bg-[#FF6464] px-6 py-3 font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
           >
             Download CV
           </a>
