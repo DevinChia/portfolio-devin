@@ -28,23 +28,27 @@ function ProjectCard({ image, title, tags, description, liveLink, githubLink }) 
         </p>
 
         <div className="mt-5 flex gap-3">
-          <a
-            href={liveLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
-          >
-            Live Demo
-          </a>
+          {liveLink && (
+            <a
+              href={liveLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
+            >
+              Live Demo
+            </a>
+          )}
 
-          <a
-            href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
-          >
-            GitHub
-          </a>
+          {githubLink && (
+            <a
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md border bg-[#FF6464] px-4 py-2 font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#e95757] active:scale-95"
+            >
+              GitHub
+            </a>
+          )}
         </div>
       </div>
     </div>

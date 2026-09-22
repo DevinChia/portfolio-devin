@@ -1,3 +1,4 @@
+import inboundManagementImage from "../assets/inbound-management.png"
 import gentlemansCutImage from "../assets/gentlemans-cut.png"
 import carCustomizerImage from "../assets/car-customizer.png"
 import kopiSenjaImage from "../assets/kopi-senja.png"
@@ -10,6 +11,14 @@ function Projects() {
         <h2 className="text-3xl font-bold md:text-4xl">
           Projects
         </h2>
+
+        <ProjectCard
+          image={inboundManagementImage}
+          title="Inbound Management System"
+          tags={["React", "Node.js", "Express", "Prisma", "PostgreSQL"]}
+          description="A full-stack web application for managing and monitoring inbound shipment data, with features for dashboards, shipment tracking, search, filtering, and data import."
+          githubLink="https://github.com/DevinChia/inbound-management"
+        />
 
         <ProjectCard
           image={gentlemansCutImage}
