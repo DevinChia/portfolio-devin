@@ -1,3 +1,4 @@
+import aureliaResortImage from "../assets/aurelia-resort.png"
 import inboundManagementImage from "../assets/inbound-management.png"
 import gentlemansCutImage from "../assets/gentlemans-cut.png"
 import carCustomizerImage from "../assets/car-customizer.png"
@@ -21,6 +22,24 @@ function Projects() {
         />
 
         <ProjectCard
+          image={carCustomizerImage}
+          title="3D Car Customizer"
+          tags={["React", "Three.js", "Supabase"]}
+          description="A web-based 3D car customization application that allows users to upload GLB models, customize the car's appearance, and save their customizations."
+          liveLink="https://3d-car-customizer.vercel.app"
+          githubLink="https://github.com/DevinChia/web-based-3d-car-customizer"
+        />
+
+        <ProjectCard
+          image={aureliaResortImage}
+          title="Aurelia Resort Website"
+          tags={["React", "Tailwind CSS"]}
+          description="A multi-page luxury resort website concept featuring responsive layouts, cinematic visuals, image reveals, parallax effects, and interactive navigation."
+          liveLink="https://aurelia-beach-resort.netlify.app"
+          githubLink="https://github.com/DevinChia/aurelia-beach-resort-website"
+        />
+
+        <ProjectCard
           image={gentlemansCutImage}
           title="Gentleman's Cut Barbershop Website"
           tags={["React", "Tailwind CSS"]}
@@ -36,15 +55,6 @@ function Projects() {
           description="A modern responsive landing page concept for a coffee shop, designed to showcase its menu, atmosphere, location, and social media presence."
           liveLink="https://kopi-senja-cafe.vercel.app"
           githubLink="https://github.com/DevinChia/kopi-senja-landing-page"
-        />
-
-        <ProjectCard
-          image={carCustomizerImage}
-          title="3D Car Customizer"
-          tags={["React", "Three.js", "Supabase"]}
-          description="A web-based 3D car customization application that allows users to upload GLB models, customize the car's appearance, and save their customizations."
-          liveLink="https://3d-car-customizer.vercel.app"
-          githubLink="https://github.com/DevinChia/web-based-3d-car-customizer"
         />
       </div>
     </section>
